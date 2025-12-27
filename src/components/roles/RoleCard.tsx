@@ -35,6 +35,16 @@ const categoryLabels = {
 
 export function RoleCard({ role, selectedSkills, onViewDetails, index }: RoleCardProps) {
   const whyItFits = getWhyItFits(role, selectedSkills);
+  
+  // Get the primary platform for quick apply
+  const primaryPlatform = role.platforms[0];
+
+  const handleQuickApply = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (primaryPlatform) {
+      window.open(primaryPlatform.url, '_blank', 'noopener,noreferrer');
+    }
+  };
 
   return (
     <motion.div
@@ -77,26 +87,41 @@ export function RoleCard({ role, selectedSkills, onViewDetails, index }: RoleCar
         </div>
       </div>
 
-      {/* Platform previews */}
+      {/* Quick Apply Buttons */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {role.platforms.slice(0, 3).map((platform) => (
-          <span
+        {role.platforms.slice(0, 2).map((platform) => (
+          <button
             key={platform.name}
-            className="px-2 py-1 rounded-lg bg-secondary text-xs font-medium"
+            onClick={(e) => {
+              e.stopPropagation();
+              window.open(platform.url, '_blank', 'noopener,noreferrer');
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-secondary/80 backdrop-blur-sm border border-border/50 text-xs font-medium hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/20"
           >
+            <ExternalLink className="w-3 h-3" />
             {platform.name}
-          </span>
+          </button>
         ))}
       </div>
 
-      <Button
-        variant="outline"
-        className="w-full group"
-        onClick={() => onViewDetails(role)}
-      >
-        View Details & Apply
-        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-      </Button>
+      <div className="flex gap-2">
+        <Button
+          variant="outline"
+          className="flex-1 group"
+          onClick={() => onViewDetails(role)}
+        >
+          View Details
+          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+        </Button>
+        <Button
+          variant="accent"
+          className="gap-2 hover:scale-105 transition-transform"
+          onClick={handleQuickApply}
+        >
+          Apply
+          <ExternalLink className="w-4 h-4" />
+        </Button>
+      </div>
     </motion.div>
   );
 }
