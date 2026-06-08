@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+```html
+<div align="center">
 
-## Project info
+# 💼✨ Job Finder ✨💼
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+<img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=30&pause=1000&color=FF69B4&center=true&vCenter=true&width=750&lines=Find+Your+Dream+Job;Smart+Career+Discovery+Platform;Built+With+HTML+CSS+JavaScript;Modern+Responsive+Job+Portal" />
 
-## How can I edit this code?
+<br>
 
-There are several ways of editing your application.
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350"/>
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🌸 Live Demo
 
-Changes made via Lovable will be committed automatically to this repo.
+<a href="https://hamsiny-c.lovable.app">
+  <img src="https://img.shields.io/badge/View%20Live%20Website-FF69B4?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💖 About Project
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Job Finder** is a modern and responsive web application that helps users discover job opportunities easily.  
+It provides a clean interface to search, explore, and find career opportunities in a simple way.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🌸 Smart Job Search  
+🌸 Attractive User Interface  
+🌸 Responsive Design  
+🌸 Easy Navigation  
+🌸 Modern Landing Page  
+🌸 Fast Performance  
+🌸 Career Opportunity Discovery  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠️ Tech Stack
+
+<img src="https://img.shields.io/badge/HTML5-FF69B4?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-BA55D3?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-FFB6C1?style=for-the-badge&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-FF1493?style=for-the-badge&logo=github&logoColor=white"/>
+
+---
+
+## 🌈 Project Preview
+
+<img src="https://user-images.githubusercontent.com/74038190/212897604-00a1780b-9e30-4ad4-83e7-123a8e52891a.gif" width="500"/>
+
+---
+
+## 🎯 Project Goal
+
+To make job searching simple, fast, and user-friendly for students, freshers, and job seekers.
+
+---
+
+## 👩‍💻 Developer
+
+### 🌸 Hamsiny C
+
+🎓 Computer Science Student  
+💻 Frontend Developer  
+🚀 Building Real-World Projects  
+
+---
+
+## 💌 Connect With Me
+
+<a href="https://github.com/Hamsiny-C">
+  <img src="https://img.shields.io/badge/GitHub-FF69B4?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="www.linkedin.com/in/hamsiny-c">
+  <img src="https://img.shields.io/badge/LinkedIn-BA55D3?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+---
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=22&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=Connecting+Talent+With+Opportunity;Learning+Building+Growing;Made+With+Love+By+Hamsiny+C" />
+
+### ⭐ If you like this project, give it a star ⭐
+
+</div>
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
